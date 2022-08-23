@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Автомастило Elf",
+    "img": "oil_Elf.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis litora tristique, tempor vehicula orci ligula natoque pellentesque fermentum",
+    "category": "oil",
+    "price": "899"
+  },
+    {
+    "id": 2,
+    "title": "Автомастило Mobil",
+    "img": "oil_Mobil.jpg",
+    "desc": "Ex aliquet nostra class varius tristique elit nam euismod venenatis sit, adipiscing pretium dui lectus a laoreet lobortis. Natoque ad vulputate pulvina",
+    "category": "oil",
+    "price": "1199"
+  },
+      {
+    "id": 3,
+    "title": "Автомастило Shell",
+    "img": "oil_Shell.jpg",
+    "desc": "Neque malesuada habitasse facilisi primis adipiscing per a purus, diam ornare posuere proin nunc suscipit aliquam, taciti metus vivamus pulvinar vel lorem sit. ",
+    "category": "oil",
+    "price": "1500"
+  },
+        {
+    "id": 4,
+    "title": "Антифриз",
+    "img": "antifrize.jpg",
+    "desc": "Ante risus per neque egestas est adipiscing, inceptos sapien curae enim condimentum mus lacinia conubia, augue hendrerit sociosqu massa efficitur lobortis. ",
+    "category": "antifrize",
+    "price": "200"
+  },
+          {
+    "id": 5,
+    "title": "Зарядка",
+    "img": "aksesuar_Zaradka.jpg",
+    "desc": "Vitae bibendum habitasse hac, aenean porta neque eu erat ac felis ex. Potenti scelerisque ornare fusce cubilia venenatis integer natoque, mollis aliquam duis molestie vel sit donec, taciti placerat per hendrerit ultricies etiam.",
+    "category": "aksesuar",
+    "price": "499"
+  },
+
+            {
+    "id": 6,
+    "title": "Фільтр",
+    "img": "filter.jpg",
+    "desc": "Vitae bibendum habitasse hac ac felis ex. Potenti scelerisque ornare fusce cubilia venenatis integer natoque, mollis aliquam duis molestie vel sit donec, taciti placerat per hendrerit ultricies etiam.",
+    "category": "filter",
+    "price": "199"
+  }
+
+]

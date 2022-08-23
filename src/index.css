@@ -6,7 +6,7 @@
 } 
 
 body {
-  background-color: #fff;
+  background-color: rgb(244, 244, 244);
   color:rgb(0, 0, 0);
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -57,6 +57,63 @@ header .hero::after{
   font-size: 50px;
   font-weight: 600;
   color: #fff
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .item {
+position: relative;
+
+  width: 30%;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  background-color: #e6e6e6;
+  overflow: hidden;
+}
+
+main .item img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  transition: transform 500ms ease;
+}
+
+main .item img:hover {
+  transform: scale(1.05);
+}
+
+main h2, main p {
+  margin: 10px 20px;
+  color:#111111
+}
+
+main .price {
+  color: #2b2b2b;
+  font-weight: 700;
+}
+
+main .add-to-cart {
+  position: absolute;
+    right: 20px;
+      bottom: 20px;
+      background-color: #aa7070;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      color: #fff;
+      border-radius: 50%;
+      cursor: pointer;
+      font-weight: 600;
+}
+
+main .add-to-cart:hover {
+  transform: scale(1.5);
+  transition: transform 500ms ease;
 }
 
 footer {
