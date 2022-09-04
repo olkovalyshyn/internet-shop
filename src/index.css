@@ -18,9 +18,25 @@ body {
 
 }
 
+header {
+  position: relative;
+}
+
 header .logo {
   font-weight: 600;
   font-size: 20px;
+}
+
+header .shop-basket-button {
+  float: right;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+}
+
+header .shop-basket-button:hover,
+header .shop-basket-button.active {
+  color: #d24040;
+  transform: scale(1.5);
 }
 
 header ul.nav{
@@ -33,6 +49,54 @@ header ul.nav li {
   margin-left: 25px;
   cursor: pointer;
   transition: opacity 500ms ease;
+}
+
+header .shop-basket {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 450px;
+  background-color: #fefefe;
+  box-shadow: 4px 5px 15px 5px #B0B0B0;
+  z-index: 555;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+header .shop-basket .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+header .shop-basket .item img {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+}
+
+header .shop-basket .item h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+header .shop-basket .item p{
+  color: #745b5b;
+  font-weight: 600;
+}
+
+header .shop-basket .item .del-icon {
+  color: #a58181;
+  float: right;
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+}
+
+header .shop-basket .empty {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 header .hero {

@@ -5,7 +5,14 @@ export default function Item(props) {
       <h2>{props.item.title}</h2>
       <p>{props.item.desc}</p>
       <p className="price">{props.item.price} грн.</p>
-      <div className="add-to-cart">+</div>
+      <div
+        className="add-to-cart"
+        onClick={() => {
+          props.onAddOrder(props.item);
+        }}
+      >
+        +
+      </div>
     </div>
   );
 }
