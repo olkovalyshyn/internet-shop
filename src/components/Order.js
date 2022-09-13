@@ -6,7 +6,10 @@ export default function Order(props) {
       <img src={'./img/' + props.item.img} />
       <h2>{props.item.title}</h2>
       <p className="price">{props.item.price} грн.</p>
-      <FaTrash className="del-icon" />
+      <FaTrash
+        className="del-icon"
+        onClick={() => props.onDelete(props.item.id)}
+      />
     </div>
   );
 }

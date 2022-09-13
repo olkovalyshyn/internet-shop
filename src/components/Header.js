@@ -7,11 +7,15 @@ export default function Header(props) {
   const [basketIsOpen, setBasketIsOpen] = useState(false);
 
   const showOrders = props => {
+    let summOrder = 0;
+    props.orders.forEach(el => (summOrder += Number.parseFloat(el.price)));
+
     return (
       <div>
         {props.orders.map(el => (
-          <Order key={el.id} item={el} />
+          <Order key={el.id} item={el} onDelete={props.onDelete} />
         ))}
+        <p className="summOrder">Разом: {summOrder.toFixed(2)} грн.</p>
       </div>
     );
   };
