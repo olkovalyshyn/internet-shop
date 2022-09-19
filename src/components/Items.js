@@ -4,7 +4,12 @@ export default function Items(props) {
   return (
     <main>
       {props.items.map(el => (
-        <Item key={el.id} item={el} onAddOrder={props.onAddOrder} />
+        <Item
+          key={el.id}
+          item={el}
+          onAddOrder={props.onAddOrder}
+          onChangeShowFullItem={props.onChangeShowFullItem}
+        />
       ))}
     </main>
   );
