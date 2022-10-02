@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/internet-shop/static/css/main.16528fa2.chunk.css",
+    "main.js": "/internet-shop/static/js/main.0e87fc88.chunk.js",
+    "main.js.map": "/internet-shop/static/js/main.0e87fc88.chunk.js.map",
+    "runtime-main.js": "/internet-shop/static/js/runtime-main.8b5c735a.js",
+    "runtime-main.js.map": "/internet-shop/static/js/runtime-main.8b5c735a.js.map",
+    "static/js/2.90fd7e0f.chunk.js": "/internet-shop/static/js/2.90fd7e0f.chunk.js",
+    "static/js/2.90fd7e0f.chunk.js.map": "/internet-shop/static/js/2.90fd7e0f.chunk.js.map",
+    "index.html": "/internet-shop/index.html",
+    "static/css/main.16528fa2.chunk.css.map": "/internet-shop/static/css/main.16528fa2.chunk.css.map",
+    "static/js/2.90fd7e0f.chunk.js.LICENSE.txt": "/internet-shop/static/js/2.90fd7e0f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/internet-shop/static/media/hero.153d7a0d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b5c735a.js",
+    "static/js/2.90fd7e0f.chunk.js",
+    "static/css/main.16528fa2.chunk.css",
+    "static/js/main.0e87fc88.chunk.js"
+  ]
+}
